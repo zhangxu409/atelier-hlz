@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/index.css" />
+    <style>
+        .close {
+          position: fixed;
+          top: 10vh;
+          right: 10%;
+          transform: translateX(-50%);
+          cursor: pointer;
+          z-index: 999;
+        }
+        .img-container {
+            height: 100vh;
+            overflow: hidden;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            max-width: 70vw;
+            max-height: 70vh;
+        }
+
+      </style>
+
+  </head>
+  <body>
+    <div class="shell">
+      <section class="head" role="banner">
+        <h1 class="head-title">
+          <a href="../index.html" data-info-role="title">
+            屮<br>木<br>长
+          </a>
+        </h1>
+
+        <a href="./info.html" class="toggle"> </a>
+      </section>
+      <!-- end .head -->
+
+      <section class="content" role="main" id="content">
+        <section class="posts posts--home" data-posts-role="posts">
+          
+            <div class="img-container">
+                <img
+                class="post-image-img post-image-img--home post-image-img--home--projects lazyautosizes ls-is-cached lazyloaded"
+                src="img/8.jpg"
+            />
+
+            </div>
+         
+
+
+
+          <!-- <article class="post post--home post--home--news">
+            <div
+              class="post-content post-content--home post-content--home--news"
+            >
+              <a
+                href="https://felgendreherolfskoechling.de/news/fok-in-ljubljana/"
+                class="center"
+              >
+                <p>FOK in Ljubljana</p>
+              </a>
+            </div>
+          </article> -->
+
+
+
+        </section>
+      </section>
+      <!-- end .content -->
+      <div class="close">
+        <a href="../index.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-x-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

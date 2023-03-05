@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <style>
+      * {
+        overflow: hidden;
+      }
+
+      .close {
+        position: fixed;
+        top: 10vh;
+        right: 10%;
+        transform: translateX(-50%);
+        cursor: pointer;
+        z-index: 999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <section class="head" role="banner">
+        <h1 class="head-title">
+          <a href="./index.html" data-info-role="title">
+            屮<br>木<br>长
+          </a>
+        </h1>
+
+        <a
+          href="./index.html"
+          class="toggle"
+          data-toggle-role="toggle"
+          data-cursor-labels='{"default":"Show Info", "single":"Go back"}'
+          data-cursor-mode="default"
+          data-toggle-mode="single"
+        >
+        </a>
+      </section>
+      <!-- end .head -->
+
+      <section class="content" role="main" id="content">
+        <section class="single-wrapper--page">
+          <div class="info">
+            <section class="info-section info-section--contact inline-content">
+              <br />
+              <br />
+              
+              <p>艹木长工作室于2022年由三位创始合伙人黄金辉，林荣星和张旭在德国斯图加特和中国上海成立。三位合伙人有着类似的学习经历，在中国，德国，瑞士有着多年著名事务所的工作经历。对场所和历史文脉的思考，对功能及空间氛围的想象，以及对构造和材料的考究是我们的设计中的重点，创造出激发人们想象力的建筑是我们的追求和目标。</p>
+
+              <br />
+              <h5>        
+                atelier hølz
+              </h5>
+
+              <p>        
+                Yaohua Rd 414<br />
+                200126 Shanghai<br />
+                China<br />
+              </p>
+              <p>
+                Heslacher Wand 34<br />
+                70199 Stuttgart<br />
+                Germany<br />
+              </p>
+              
+              <h5>
+                <a href="mailto:mail@atelierhlz.com">mail@atelierhlz.com</a><br />
+             
+              </h5>
+            </section>
+          </div>
+        </section>
+      </section>
+      <!-- end .content -->
+      <div class="close">
+        <a href="./index.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-x-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
